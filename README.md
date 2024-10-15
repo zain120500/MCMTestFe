@@ -48,8 +48,10 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
     ```
 
     Setelah build selesai, Anda dapat melihat build tersebut secara lokal:
-    npm run preview
 
+    ```bash
+    npm run preview
+    ```
 <h3> Menghasilkan File Statis </h3>
 
     Jika Anda ingin menghasilkan HTML statis untuk semua rute (berguna untuk hosting statis):
