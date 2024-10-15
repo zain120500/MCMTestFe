@@ -14,15 +14,17 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
 1. Klon repositori:
 
    ```bash
-   git clone https://github.com/username-anda/nuxt-app.git
+   git clone https://github.com/zain120500/MCMTestFe.git
    cd nuxt-app
 
 2. Instal dependensi:
 
+    ```bash
     npm install
 
     atau, jika Anda menggunakan Yarn:
 
+    ```bash
     yarn install
 
 ## Menjalankan Server Pengembangan
