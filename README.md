@@ -29,7 +29,7 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
     yarn install
     ```
 
-    <h1>Menjalankan Server Pengembangan</h1>
+    <h3>Menjalankan Server Pengembangan</h3>
 
     Untuk memulai server pengembangan, jalankan:
 
@@ -39,7 +39,7 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
     
     Perintah ini akan memulai server lokal di http://localhost:3000. Anda dapat membuka tautan tersebut di browser untuk melihat aplikasi.
 
-## Membangun untuk Produksi
+<h3> Membangun untuk Produksi </h3>
 
     Untuk membuat build produksi dari proyek:
 
@@ -50,14 +50,14 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
     Setelah build selesai, Anda dapat melihat build tersebut secara lokal:
     npm run preview
 
-## Menghasilkan File Statis
+<h3> Menghasilkan File Statis </h3>
 
     Jika Anda ingin menghasilkan HTML statis untuk semua rute (berguna untuk hosting statis):
 
     ```bash
     npm run generate
     ```
-## Menggunakan Docker
+<h3> Menggunakan Docker </h3>
     Untuk menjalankan proyek di dalam kontainer Docker, ikuti langkah-langkah berikut:
 
 1. Bangun gambar Docker:
