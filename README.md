@@ -29,7 +29,7 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
     yarn install
     ```
 
-    <h3>Menjalankan Server Pengembangan</h3>
+<h3>Menjalankan Server Pengembangan</h3>
 
     Untuk memulai server pengembangan, jalankan:
 
@@ -57,7 +57,9 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
     ```bash
     npm run generate
     ```
+
 <h3> Menggunakan Docker </h3>
+
     Untuk menjalankan proyek di dalam kontainer Docker, ikuti langkah-langkah berikut:
 
 1. Bangun gambar Docker:
