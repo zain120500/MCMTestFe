@@ -16,21 +16,26 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
    ```bash
    git clone https://github.com/zain120500/MCMTestFe.git
    cd nuxt-app
+   ```
 
 2. Instal dependensi:
 
     ```bash
     npm install
-
+    ```
     atau, jika Anda menggunakan Yarn:
 
     ```bash
     yarn install
+    ```
 
 ## Menjalankan Server Pengembangan
+
     Untuk memulai server pengembangan, jalankan:
 
+    ```bash
     npm run dev
+    ```
     
     Perintah ini akan memulai server lokal di http://localhost:3000. Anda dapat membuka tautan tersebut di browser untuk melihat aplikasi.
 
