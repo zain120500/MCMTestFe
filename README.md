@@ -40,25 +40,37 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
     Perintah ini akan memulai server lokal di http://localhost:3000. Anda dapat membuka tautan tersebut di browser untuk melihat aplikasi.
 
 ## Membangun untuk Produksi
+
     Untuk membuat build produksi dari proyek:
+
+    ```bash
     npm run build
+    ```
 
     Setelah build selesai, Anda dapat melihat build tersebut secara lokal:
     npm run preview
 
 ## Menghasilkan File Statis
-    Jika Anda ingin menghasilkan HTML statis untuk semua rute (berguna untuk hosting statis):
-    npm run generate
 
+    Jika Anda ingin menghasilkan HTML statis untuk semua rute (berguna untuk hosting statis):
+
+    ```bash
+    npm run generate
+    ```
 ## Menggunakan Docker
     Untuk menjalankan proyek di dalam kontainer Docker, ikuti langkah-langkah berikut:
 
 1. Bangun gambar Docker:
 
-docker build -t nuxt-app .
+    ```bash
+    docker build -t nuxt-app .
+    ```
+
 2. Jalankan kontainer Docker:
 
-docker run -d -p 3000:3000 nuxt-app
+    ```bash
+    docker run -d -p 3000:3000 nuxt-app
+    ```
 
 Ini akan menjalankan aplikasi di dalam kontainer dan memetakan port kontainer 3000 ke port lokal 3000 Anda. Anda kemudian dapat mengakses aplikasi di http://localhost:3000.
 
