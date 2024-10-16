@@ -62,7 +62,7 @@ Sebelum Anda memulai, pastikan Anda telah memenuhi persyaratan berikut:
 1. Bangun gambar Docker:
 
     ```bash
-    docker build -t nuxt-app 
+    docker build -t nuxt-app .
     ```
 
 2. Jalankan kontainer Docker:
